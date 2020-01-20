@@ -1,0 +1,59 @@
+body {
+  text-align: center;
+  background-color: #260339;
+}
+
+h1 {
+  margin-top: 75px;
+  margin-bottom: 0;
+  font-size: 5rem;
+  color: #9775AA;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #DA0463;
+}
+
+footer {
+  color: #9775AA;
+  font-family: "Arvo";
+}
+
+.waluigi-img{
+  display: inline-block;
+  position: relative;
+  bottom: 20px;
+  width: 8%;
+}
+.scale5{
+  visibility: hidden;
+  position: absolute;
+}
+
+.set {
+  margin: 5% auto 10%;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #9775AA;
+  opacity: 0.9;
+  background-image: url("images/waluigifavicon.png");
+  background-size: cover;
+}
+
+
+.drum {
+  outline: none;
+  border: 10px solid #3D1255;
+  background-color: #582A72;
+  font-size: 5rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #9775AA;
+  text-shadow: 3px 0 #764B8E;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+}
